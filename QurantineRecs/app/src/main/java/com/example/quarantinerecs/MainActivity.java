@@ -3,8 +3,14 @@ package com.example.quarantinerecs;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btn;
+    ImageView img;
+   // TextView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
   
        //hey
+
+        img = findViewById(R.id.blackLives);
+
     }
 }
