@@ -29,6 +29,7 @@
         android:layout_marginTop="108dp"
         android:foregroundGravity="center"
         android:src="@drawable/blmResources"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,6 +41,7 @@
         android:layout_marginTop="264dp"
         android:foregroundGravity="center"
         android:src="@drawable/movies"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,6 +53,7 @@
         android:layout_marginTop="420dp"
         android:foregroundGravity="center"
         android:src="@drawable/tvshows"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,6 +65,7 @@
         android:layout_marginTop="580dp"
         android:foregroundGravity="center"
         android:src="@drawable/games"
+        android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
