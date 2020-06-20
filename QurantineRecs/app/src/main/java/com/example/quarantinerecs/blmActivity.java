@@ -18,10 +18,12 @@ public class blmActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blm);
+      
         btn = findViewById(R.id.clickMe);
         click = findViewById(R.id.JustFloyd);
         butt = findViewById(R.id.justTaylor);
         me = findViewById(R.id.bob);
+
     }
 
     public void goToSo(View view) {
