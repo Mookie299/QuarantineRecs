@@ -25,18 +25,7 @@ public class MainActivity extends AppCompatActivity {
         img = findViewById(R.id.tvShows);
         img = findViewById(R.id.games);
 
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               // goToMovies();
-            }
-        });
-
     }
 
-    public void gotToMovies(){
-        Intent i = new Intent(this, Movies.class);
-        startActivity(i);
-    }
 
 }
