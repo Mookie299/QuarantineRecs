@@ -30,6 +30,9 @@
         android:layout_marginTop="104dp"
         android:foregroundGravity="center"
         android:src="@drawable/black_resources"
+
+        android:onClick="onClick"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
