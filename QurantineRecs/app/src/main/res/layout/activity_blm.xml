@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#43464b"
     tools:context=".blmActivity">
 
     <Button
@@ -13,10 +14,10 @@
         android:text="Black Lives Matter.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <Button
         android:id="@+id/JustFloyd"
@@ -33,11 +34,12 @@
         android:id="@+id/justTaylor"
         android:layout_width="413dp"
         android:layout_height="51dp"
+        android:layout_marginStart="52dp"
         android:text="Justice for Breonna Taylor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.259" />
 
     <Button
         android:id="@+id/button4"

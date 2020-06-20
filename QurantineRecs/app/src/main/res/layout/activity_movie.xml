@@ -9,19 +9,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="#43464b"
         tools:context=".MainActivity">
 
         <EditText
             android:id="@+id/search_bar"
+            android:layout_gravity="center"
             android:layout_width="350dp"
             android:layout_height="wrap_content"/>
 
         <Button
             android:id="@+id/search_button"
-            android:text="Search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="fetchData"/>
+            android:layout_gravity="center"
+            android:backgroundTint="#40E0D0"
+            android:onClick="fetchData"
+            android:text="Search" />
 
         <TextView
             android:id="@+id/plot_tv"
@@ -30,6 +34,7 @@
 
         <ImageView
             android:id="@+id/movie_poster_iv"
+            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="400dp"/>
 

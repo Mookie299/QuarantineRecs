@@ -13,6 +13,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.squareup.picasso.Picasso;
@@ -49,21 +50,20 @@ public class MovieActivity extends AppCompatActivity {
         RequestQueue queue = Volley.newRequestQueue(this);
         String url ="http://www.omdbapi.com/?apikey=388d5f18&t=" + movieSearched;
 
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
-                new Response.Listener<String>() {
+        JsonObjectRequest stringRequest = new JsonObjectRequest(Request.Method.GET, url, null,
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(String response) {
+                    public void onResponse(JSONObject response) {
                         try {
-                            JSONObject responseObject = new JSONObject(response);
-                            String plotText = responseObject.getString("Plot");
+                            String plotText = response.getString("Plot");
                             plotTextView.setText(plotText);
-                            String ratedText = "Rated: " + responseObject.getString("Rated");
+                            String ratedText = "Rated: " + response.getString("Rated");
                             ratedTextView.setText(ratedText);
-                            String runtimeText = "Runtime: " + responseObject.getString("Runtime");
+                            String runtimeText = "Runtime: " + response.getString("Runtime");
                             runtimeTextView.setText(runtimeText);
-                            String imdbRatingText = "IMDB Rating: " + responseObject.getString("imdbRating");
+                            String imdbRatingText = "IMDB Rating: " + response.getString("imdbRating");
                             imdbRatingTextView.setText(imdbRatingText);
-                            String moviePosterUrl = responseObject.getString("Poster");
+                            String moviePosterUrl = response.getString("Poster");
                             Picasso.get().load(moviePosterUrl).into(moviePosterImageView);
                         } catch (JSONException e) {
                             e.printStackTrace();
