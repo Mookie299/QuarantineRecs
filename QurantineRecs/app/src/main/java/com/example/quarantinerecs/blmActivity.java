@@ -25,7 +25,7 @@ public class blmActivity extends AppCompatActivity {
 
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
-        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        Intent launchBrowser = new Intent("android.intent.action.VIEW",uriUrl);
         startActivity(launchBrowser);
     }
 }

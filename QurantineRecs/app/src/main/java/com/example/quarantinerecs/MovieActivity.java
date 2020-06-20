@@ -54,16 +54,16 @@ public class MovieActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         try {
-                            JSONObject responseObject = new JSONObject(response);
-                            String plotText = responseObject.getString("Plot");
+
+                            String plotText = response.getString("Plot");
                             plotTextView.setText(plotText);
-                            String ratedText = "Rated: " + responseObject.getString("Rated");
+                            String ratedText = "Rated: " + response.getString("Rated");
                             ratedTextView.setText(ratedText);
-                            String runtimeText = "Runtime: " + responseObject.getString("Runtime");
+                            String runtimeText = "Runtime: " + response.getString("Runtime");
                             runtimeTextView.setText(runtimeText);
-                            String imdbRatingText = "IMDB Rating: " + responseObject.getString("imdbRating");
+                            String imdbRatingText = "IMDB Rating: " + response.getString("imdbRating");
                             imdbRatingTextView.setText(imdbRatingText);
-                            String moviePosterUrl = responseObject.getString("Poster");
+                            String moviePosterUrl = response.getString("Poster");
                             Picasso.get().load(moviePosterUrl).into(moviePosterImageView);
                         } catch (JSONException e) {
                             e.printStackTrace();
