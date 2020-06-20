@@ -29,7 +29,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="104dp"
         android:foregroundGravity="center"
-        android:onClick="onClick"
         android:src="@drawable/black_resources"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,7 +40,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="252dp"
         android:foregroundGravity="center"
-        android:onClick="onClick"
         android:src="@drawable/movies"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -53,7 +51,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="404dp"
         android:foregroundGravity="center"
-        android:onClick="onClick"
         android:src="@drawable/tvshows"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +62,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="568dp"
         android:foregroundGravity="center"
-        android:onClick="onClick"
         android:src="@drawable/games"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
