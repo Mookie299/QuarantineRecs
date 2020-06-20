@@ -77,4 +77,7 @@ public class MovieActivity extends AppCompatActivity {
         queue.add(stringRequest);
     }
 
+    public void goToMovies(View view) {
+
+    }
 }
