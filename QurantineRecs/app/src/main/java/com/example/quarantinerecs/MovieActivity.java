@@ -1,5 +1,6 @@
 package com.example.quarantinerecs;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -77,7 +78,4 @@ public class MovieActivity extends AppCompatActivity {
         queue.add(stringRequest);
     }
 
-    public void goToMovies(View view) {
-
-    }
 }
