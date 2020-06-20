@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         img = findViewById(R.id.blackLives);
-
         img = findViewById(R.id.movies);
         img = findViewById(R.id.tvShows);
         img = findViewById(R.id.games);

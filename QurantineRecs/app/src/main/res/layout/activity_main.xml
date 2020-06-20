@@ -28,7 +28,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="108dp"
         android:foregroundGravity="center"
-        android:src="@drawable/blmResources"
+        android:src="@drawable/black_resources"
         android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
