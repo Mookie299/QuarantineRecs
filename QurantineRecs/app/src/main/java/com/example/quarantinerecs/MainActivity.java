@@ -28,4 +28,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private void goToScreen2(View view) {
+        goToMovies(view);
+    }
+
+    public void goToMovies(View view) {
+        Intent toMovies = new Intent(this,MovieActivity.class);
+        startActivity(toMovies);
+    }
+
+    public void goToScreen3() {
+        Intent toRes = new Intent(this, blmActivity.class);
+        startActivity(toRes);
+
+    }
+
+    public void goToRes(View view) {
+        goToScreen3();
+    }
 }
+

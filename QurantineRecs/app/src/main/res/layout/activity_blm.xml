@@ -6,4 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".blmActivity">
 
+    <Button
+        android:id="@+id/clickMe"
+        android:layout_width="415dp"
+        android:layout_height="50dp"
+        android:text="Black Lives Matter.com"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/JustFloyd"
+        android:layout_width="407dp"
+        android:layout_height="48dp"
+        android:text="Justice for George Floyd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <Button
+        android:id="@+id/justTaylor"
+        android:layout_width="413dp"
+        android:layout_height="51dp"
+        android:text="Justice for Breonna Taylor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
+        android:text="Support Black owned Businesses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
 </androidx.constraintlayout.widget.ConstraintLayout>

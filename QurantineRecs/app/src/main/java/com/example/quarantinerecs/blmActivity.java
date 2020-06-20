@@ -15,28 +15,19 @@ public class blmActivity extends AppCompatActivity {
         setContentView(R.layout.activity_blm);
     }
 
-    public void goToSo (View view) {
-        goToUrl ( "http://stackoverflow.com/");
+    public void goToSo(View view) {
+        goToUrl("http://stackoverflow.com/");
     }
 
-    public void goToSu (View view) {
-        goToUrl ( "http://superuser.com/");
+    public void goToSu(View view) {
+        goToUrl("http://superuser.com/");
     }
 
-    private void goToUrl (String url) {
+    private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
     }
-
-    public void goToScreen3() {
-        Intent toRes = new Intent(this, blmActivity.class);
-        startActivity(toRes);
-
-    }
-
-    public void goToRes(View view) {
-        goToScreen3();
-    }
 }
+
 
