@@ -27,5 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void goToScreen2(View view){
+        gotToMovies(view);
+    }
+
+    private void gotToMovies(View view) {
+        Intent toMovies = new Intent(this, MovieActivity.class);
+        startActivity(toMovies);
+    }
+
 
 }
