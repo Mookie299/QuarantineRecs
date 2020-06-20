@@ -2,7 +2,9 @@ package com.example.quarantinerecs;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -19,12 +21,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         img = findViewById(R.id.blackLives);
-
         img = findViewById(R.id.movies);
         img = findViewById(R.id.tvShows);
         img = findViewById(R.id.games);
 
-
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               // goToMovies();
+            }
+        });
 
     }
+
+    public void gotToMovies(){
+        Intent i = new Intent(this, Movies.class);
+        startActivity(i);
+    }
+
 }

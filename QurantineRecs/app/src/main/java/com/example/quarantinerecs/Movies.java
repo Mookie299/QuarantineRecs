@@ -1,4 +1,8 @@
 package com.example.quarantinerecs;
 
-public class Movies {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Movies extends AppCompatActivity {
+
+
 }
