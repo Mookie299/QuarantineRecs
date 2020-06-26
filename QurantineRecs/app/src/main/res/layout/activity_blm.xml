@@ -4,55 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#43464b"
+    android:background="#f5d2d3"
     tools:context=".blmActivity">
 
     <Button
         android:id="@+id/clickMe"
-        android:layout_width="415dp"
-        android:layout_height="50dp"
+        android:layout_width="418dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#C8C8C8"
+        android:onClick="goToSo"
         android:text="Black Lives Matter.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021"
-        android:onClick="goToSo"/>
+        app:layout_constraintVertical_bias="0.602" />
 
     <Button
         android:id="@+id/JustFloyd"
-        android:layout_width="407dp"
-        android:layout_height="48dp"
+        android:layout_width="425dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#C8C8C8"
+        android:onClick="goToSu"
         android:text="Justice for George Floyd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149"
-        android:onClick="goToSu"/>
+        app:layout_constraintVertical_bias="0.711" />
 
     <Button
         android:id="@+id/justTaylor"
-        android:layout_width="390dp"
-        android:layout_height="51dp"
+        android:layout_width="422dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#C8C8C8"
         android:onClick="goToSuv"
         android:text="Justice for Breonna Taylor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264" />
+        app:layout_constraintVertical_bias="0.825" />
 
     <Button
         android:id="@+id/bob"
-        android:layout_width="409dp"
-        android:layout_height="45dp"
+        android:layout_width="417dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#C8C8C8"
+        android:onClick="goToYtk"
         android:text="Support Black owned Businesses"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39"
-        android:onClick="goToYtk"/>
+        app:layout_constraintVertical_bias="0.933" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="454dp"
+        android:layout_height="404dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="serif-monospace"
+        android:text="While you get time to preocccupy yourself using our app, we encourage you to use this page to stay educated at a time like this. Our new reality has been heavily changed to focusing on systematic problems that should have been recovered. The goal of this app is to redirect your attention when it gets too overwhleming from social media. However, it is so important to educate yourself, that is how we make the first step of change. This app is not surrounding around the Black lives matter movement but we encourage you to take glances here. "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

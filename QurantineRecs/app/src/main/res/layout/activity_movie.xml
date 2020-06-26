@@ -9,13 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#43464b"
+        android:background="#f5d2d3"
         tools:context=".MainActivity">
 
         <EditText
             android:id="@+id/search_bar"
             android:layout_gravity="center"
             android:layout_width="350dp"
+            android:color="#daa520"
             android:layout_height="wrap_content"/>
 
         <Button
@@ -23,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="#40E0D0"
+            android:backgroundTint="#daa450"
             android:onClick="fetchData"
             android:text="Search" />
 
