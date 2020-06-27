@@ -65,17 +65,17 @@
 
     <TextView
         android:id="@+id/notice"
-        android:layout_width="443dp"
-        android:layout_height="217dp"
+        android:layout_width="356dp"
+        android:layout_height="157dp"
         android:background="@drawable/textview_border"
         android:fontFamily="serif-monospace"
         android:text="While you get time to preocccupy yourself using our app, we encourage you to use this page to stay educated at a time like this. Our new reality has been heavily changed to focusing on systematic problems that should have been recovered. The goal of this app is to redirect your attention when it gets too overwhleming from social media. However, it is so important to educate yourself, that is how we make the first step of change. This app is not surrounding around the Black lives matter movement but we encourage you to take glances here. "
-        android:textColor="#ffffff"
-        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.146" />
 </androidx.constraintlayout.widget.ConstraintLayout>
