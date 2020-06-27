@@ -19,6 +19,7 @@
         android:fontFamily="serif-monospace"
         android:gravity="center"
         android:text="Welcome"
+        android:background="@drawable/textview_border2"
         android:textSize="45dp"
         android:textStyle="italic"
         android:layout_marginTop="25dp"
@@ -53,6 +54,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/books"
+            android:layout_width="246dp"
+            android:layout_height="132dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="25dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/books"
+            android:onClick="goToBooks"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/gym"
+            android:layout_width="246dp"
+            android:layout_height="132dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="25dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/workout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/tvShows"
         android:layout_width="246dp"
@@ -64,16 +88,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/games"
-        android:layout_width="246dp"
-        android:layout_height="132dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="25dp"
-        android:foregroundGravity="center"
-        android:src="@drawable/games"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/games"
+            android:layout_width="246dp"
+            android:layout_height="132dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="25dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/games"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </LinearLayout>
 

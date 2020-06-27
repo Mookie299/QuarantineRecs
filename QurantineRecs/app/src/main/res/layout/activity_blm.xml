@@ -16,10 +16,10 @@
         android:text="Black Lives Matter.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602" />
+        app:layout_constraintVertical_bias="0.711" />
 
     <Button
         android:id="@+id/JustFloyd"
@@ -30,10 +30,10 @@
         android:text="Justice for George Floyd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.789" />
 
     <Button
         android:id="@+id/justTaylor"
@@ -44,10 +44,10 @@
         android:text="Justice for Breonna Taylor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825" />
+        app:layout_constraintVertical_bias="0.876" />
 
     <Button
         android:id="@+id/bob"
@@ -61,19 +61,21 @@
         app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933" />
+        app:layout_constraintVertical_bias="0.962" />
 
     <TextView
         android:id="@+id/notice"
-        android:layout_width="454dp"
-        android:layout_height="404dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="443dp"
+        android:layout_height="217dp"
         android:background="@drawable/textview_border"
         android:fontFamily="serif-monospace"
         android:text="While you get time to preocccupy yourself using our app, we encourage you to use this page to stay educated at a time like this. Our new reality has been heavily changed to focusing on systematic problems that should have been recovered. The goal of this app is to redirect your attention when it gets too overwhleming from social media. However, it is so important to educate yourself, that is how we make the first step of change. This app is not surrounding around the Black lives matter movement but we encourage you to take glances here. "
         android:textColor="#ffffff"
         android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
 </androidx.constraintlayout.widget.ConstraintLayout>

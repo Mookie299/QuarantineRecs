@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5d2d3"
+    tools:context=".BooksActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/display"
+            android:layout_width="233dp"
+            android:layout_height="269dp"
+            android:layout_gravity="center"
+            android:src="@drawable/petals"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:text="A decade after Cathy, Christopher, and Carrie escaped from their grandparents' attic at Foxworth Hall, Petals on the Wind continues to follow the twisted plight of the family as they attempt to put their sordid past behind them, but soon discover certain secrets can't be left behind. When Cathy finds herself in an abusive relationship with a fellow dancer, Julian, Christopher and Cathy are forced to face the forbidden feelings they developed for one another while coming of age during captivity. But when tragedy strikes the Dollangangers once again, Cathy returns to Foxworth Hall to confront her grandmother and seek revenge on her mother with a plan to seduce her husband Bart. When Christopher runs to Cathy's side, the two are determined to start over again - together."
+            android:layout_height="250dp"
+            android:layout_marginTop="60dp" />
+
+        <ImageView
+            android:id="@+id/display2"
+            android:layout_width="233dp"
+            android:layout_height="269dp"
+            android:layout_gravity="center"
+            android:src="@drawable/thehateyougive"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:text="The story then jumps forward to when Starr (Amandla Stenberg) is a vibrant 16-year-old who plays on her school’s basketball team and finds love in a goofy yet earnest white classmate named Chris (K.J. Apa). But the unintended consequence of having one foot in two different social circles is that you never really feel balanced in either. She feels out-of-place both at her white prep school where white kids love to use black slang and at a neighborhood party her friend brings her to so Starr can help her out in a fight. Starr’s awkward feelings are pushed aside for a moment when an old childhood friend and first crush, Khalil (Algee Smith), approaches her with a smile completed by dimples. A fight breaks out at the party, interrupting their meet-cute, and the two drive off in Khalil’s car. On their way back to Starr’s home, the two teens reminisce about old times and even share a kiss. Then, red and blue lights flash. A cop pulls them over for some unexplained reason, and Khalil gets defensive."
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:id="@+id/display3"
+            android:layout_width="233dp"
+            android:layout_height="269dp"
+            android:layout_gravity="center"
+            android:src="@drawable/algernon"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/description3"
+            android:layout_width="match_parent"
+            android:text="In a series of progress reports, Charlie documents everything that happens to him. As Charlie's intelligence increases to a genius level, the reader not only reads about the changes from Charlie's viewpoint, but also sees the change evidenced in Charlie's writing ability. This jump in intelligence is not necessarily a good thing, however. Charlie is now able to recall past events that shaped his life and analyze past friendships for what they were, or weren't. He also has difficulty making new friendships and establishing new relationships due to a lack of social intelligence that the surgery could neither correct nor anticipate. And, finally, because of his increased intelligence, Charlie is able to discover the experiment's fatal flaw and is reduced to watching the end for both Algernon and himself, hoping to salvage something for the future from his brief bout with genius."
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

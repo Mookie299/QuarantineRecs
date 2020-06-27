@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         img = findViewById(R.id.movies);
         img = findViewById(R.id.tvShows);
         img = findViewById(R.id.games);
+        img = findViewById(R.id.books);
+        img = findViewById(R.id.gym);
 
     }
 
@@ -40,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToRes(View view) {
         goToScreen3();
+    }
+
+
+    public void gotToScreen4(){
+        Intent toBooks = new Intent (this,BooksActivity.class);
+        startActivity(toBooks);
+    }
+
+
+    public void goToBooks(View view) {
+        gotToScreen4();
     }
 }
 
