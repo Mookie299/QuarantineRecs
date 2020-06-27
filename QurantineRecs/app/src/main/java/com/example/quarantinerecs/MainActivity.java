@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public void goToMovies(View view) {
         Intent toMovies = new Intent(this,MovieActivity.class);
         startActivity(toMovies);
